@@ -1,0 +1,72 @@
+/*
+Theme Name: Basic theme
+Theme URI: n/a
+Author: @sheriffderek
+Author URI: http://sheriffderek.consulting;
+Description: Sometimes your theme breaks and you need to revert to the default 2011 theme. How about this one instead. It's an all-the-way base level of WordPress and will ensure that you aren't crazy, or that maybe you are.
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: basic-theme
+*/
+
+@charset "UTF-8";
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+}
+
+body {
+	background-color: lightgray;
+	font-family: arial;
+}
+
+.container {
+	width: 100%;
+	float: left;
+}
+
+.container .inner-w {
+	max-width: 50em;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 1em;
+}
+
+.block-list {
+	list-style: none;
+	margin: 0; padding: 0;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+::selection {
+	background-color: transparent;
+	color: #f06;
+}
+
+
+/* ======================== */
+
+
+h2 {
+	margin-bottom: 1em;
+}
+
+table, td {
+	border: 1px solid rgba(255,255,255,.5);
+	border-collapse:collapse
+}
+
+td {
+	padding: .2em .5em;
+}
+
+.css-check:after, .jquery-check:after {
+	content: "✔";
+	color: green;
+}
